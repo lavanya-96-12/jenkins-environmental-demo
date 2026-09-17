@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/lavanya-96-12/jenkins-environment-demo.git'
+                    url: 'https://github.com/lavanya-96-12/jenkins-environmental-demo.git'
             }
         }
 
